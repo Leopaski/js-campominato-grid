@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 2rem;
+    margin: 1.5rem;
+}
+.title {
+    display: inline;
+    color: rgb(13, 13, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    max-height: 20%;
+}
+#play {
+    flex-basis: 20%;
+    margin-left: 30%;
+}
+footer {
+    background-color: burlywood;
+    max-height: 10%;
+}
+main{
+    background-color: aqua;
+    height: auto;
+}
