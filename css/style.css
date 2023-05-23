@@ -33,3 +33,19 @@ main{
     background-color: aqua;
     height: auto;
 }
+#tabella{
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#tabella .cella {
+    width: calc(100%/10);
+    height: calc(100%/10);
+    border: 2px black solid;
+}
+#tabella.cella.clicked {
+    background-color: darkblue;
+
+}
