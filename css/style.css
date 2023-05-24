@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: burlywood;
+    background-color: white;
     max-height: 20%;
 }
 #play {
@@ -26,7 +26,7 @@ header {
     margin-left: 30%;
 }
 footer {
-    background-color: burlywood;
+    background-color: white;
     max-height: 10%;
 }
 main{
@@ -39,6 +39,7 @@ main{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding: 4rem;
 }
 #tabella .cella {
     width: calc(100%/10);
